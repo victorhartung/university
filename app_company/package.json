@@ -1,0 +1,26 @@
+{
+  "name": "app_company",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pg": "^8.10.2",
+    "tsx": "^3.12.10",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@fastify/postgres": "^5.2.0",
+    "@types/node": "^20.6.2",
+    "fastify": "^4.23.2",
+    "fastify-postgres": "^3.7.0",
+    "pg": "^8.11.3",
+    "ts-node": "^10.9.1"
+  }
+}
